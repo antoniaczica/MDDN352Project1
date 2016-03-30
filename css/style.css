@@ -21,9 +21,8 @@ html,body{height:100%;}
 }
 
 .design-img{
-  height:50vh;
+  max-height:50vh;
   max-width: 100%;
-  margin:auto;
 }
 
 /* CUSTOMIZE THE CAROUSEL
