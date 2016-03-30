@@ -1,3 +1,7 @@
+// PAGE SETTINGS
+
+// Smooth scrolling to anchor
+// Source: https://css-tricks.com/snippets/jquery/smooth-scrolling/
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -13,12 +17,24 @@ $(function() {
   });
 });
 
+// NAVIGATION BAR SETTINGS
+
+// Nav bar closes on click
 $(document).ready(function () {
   $(".navbar-nav li a").click(function(event) {
     $(".navbar-collapse").collapse('hide');
   });
 });
 
+
+// CAROUSEL SETTINGS
+
+// Setting the interval to false
+$('.carousel').carousel({
+    interval: false
+}); 
+
+// Change on click
 $('.carousel').click(function () {
   $("#myCarousel").carousel('next');
 }); 
