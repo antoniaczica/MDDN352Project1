@@ -18,10 +18,10 @@ html,body{height:100%;}
   transform: translateY(10vh);
 
 }
-.div{
-  min-height: 100px;
-  overflow: hidden;
-}
+@media (max-width: 768px) {
+  .custom-height {
+    height: 100%;
+  }
 
 
 /* CUSTOMIZE THE CAROUSEL
