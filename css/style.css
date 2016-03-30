@@ -23,10 +23,6 @@ html,body{height:100%;}
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
-  .custom-height {
-    height: 100%;
-  }
 
 
 /* CUSTOMIZE THE CAROUSEL
