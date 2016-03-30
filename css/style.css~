@@ -27,13 +27,11 @@ html,body{height:100%;}
 /* Carousel base class */
 .carousel {
   height: 60vh;
-  width: 80vw;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 60vh;
-  width: 80vw;
 
 }
 .carousel-inner > .item > img {
