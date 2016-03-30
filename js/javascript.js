@@ -18,3 +18,7 @@ $(document).ready(function () {
     $(".navbar-collapse").collapse('hide');
   });
 });
+
+$('.carousel').click(function () {
+  $("#myCarousel").carousel('next');
+}); 
