@@ -29,11 +29,6 @@ $(document).ready(function () {
 
 // CAROUSEL SETTINGS
 
-// Setting the interval to false
-$('.carousel').carousel({
-    interval: false
-}); 
-
 // Change on click
 $('.carousel').click(function () {
   $("#myCarousel").carousel('next');
