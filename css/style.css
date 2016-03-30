@@ -13,16 +13,15 @@ html,body{height:100%;}
 
 .section {
   min-height: 100vh;
+  height: 100%;
+
 }
 .inner-section {
   transform: translateY(10vh);
 
 }
 
-@media (max-width: 768px) {
-  .custom-height {
-    height: 100%;
-  }
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
